@@ -1,0 +1,41 @@
+.plans{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #000000;
+    
+}
+.plan{
+    // border: 2px solid greenyellow;
+    border-bottom: 4px solid red;
+    box-shadow: 1px 1px 2px rgb(247, 113, 113);
+    border-radius: 20px;
+    height: 580px;
+    width: 600px;
+    margin-top:75px;
+    margin-left: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 20px;
+   
+}
+
+.plan>img{
+    height: 420px;
+    width: 600px;
+    margin-bottom: 15px;
+    transition: all 1s ease-in-out;
+    
+}
+.plan>img:hover{
+    // border: 3px solid green;
+    box-shadow: 5px 5px 10px rgb(226, 234, 214);
+    filter: grayscale((1.5));
+    transform: scaleY(1.05);
+}
+.plan h2, h3, h4, p{
+    color: white;
+}

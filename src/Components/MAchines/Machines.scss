@@ -1,0 +1,52 @@
+.machines{
+    min-height: 100vh;
+    color: white;
+    background: #000;
+}
+.machines>h3{
+    color: rgb(255, 255, 255);
+    height: 350px;
+    width: 600px;
+    // border: 2px solid green;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    margin-left: 430px;
+    padding: 20px;
+    text-shadow: 2px 2px 3px white;
+}
+.mach{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-wrap:wrap;
+    gap: 50px;
+}
+.machine{
+    // border: 2px solid gainsboro;
+    cursor: pointer;
+    
+}
+
+.machine>img{
+    height: 350px;
+    width: 350px;
+    transition:  all 1s ease-in-out;
+}
+.machine>img:hover{
+      transform: translateY(-20px);
+}
+.machine>h4{
+   color: rgb(228, 33, 33);
+   margin: 5px 0;
+   border: 2px solid white;
+   transition: all 1s ease-in-out;
+
+}
+.machine>h4:hover{
+    background-color: #fff;
+    color: black;
+    box-shadow: 4px 4px 3px white;
+}
